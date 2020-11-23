@@ -18,3 +18,13 @@ int main()
     }
     return 0;
 }
+
+/*
+ps -ef | grep GetProcessId                              # check PID or ~$ top
+sudo kill -9 18181                                      # Check Terminal loop
+
+1. 중간에 while 문 한번 빼고 실행. 부모 아이디가 안나옴.
+
+2. ps -ef | grep GetProcessId &
+앰퍼샌드 붙이고 하면 백그라운드에서 실행
+*/
